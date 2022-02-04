@@ -1,0 +1,40 @@
+body {
+  width: fit-content;
+  height: fit-content;
+}
+/*Make any img element responsive*/
+img {
+  max-width: 100%;
+ }
+ /*Set a fixed size for width and height and in an absolute position*/
+ #duck {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+ }
+ /*Style for the Score container*/
+ .scoreContainer {
+  background-color: black;
+  width: 15%;
+  height: 15%;
+  color: #ffffff;
+  top: 5%;
+  right: 5%;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+ }
+ #score-text {
+  font-size: 1.5em;
+ }
+ #score-counter {
+  font-size: 3.1em;
+  font-weight: bold;
+  color: #06e515;
+ }
